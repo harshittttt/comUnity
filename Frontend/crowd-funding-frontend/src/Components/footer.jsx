@@ -61,7 +61,16 @@ const Footer = () => {
             <br />
             <a
               className={`${styles.name}`}
-              href="https://in.linkedin.com/in/mansigujral/"
+              href="https://in.linkedin.com/in/harshittttt/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Harshit Saini
+            </a>
+            <br />
+            <a
+              className={`${styles.name}`}
+              href="https://www.linkedin.com/in/mansigujral/"
               target="_blank"
               rel="noreferrer"
             >
@@ -70,16 +79,25 @@ const Footer = () => {
             <br />
             <a
               className={`${styles.name}`}
-              href="https://www.linkedin.com/in/harshittttt/"
+              href="https://www.linkedin.com/in/iknoor-kaur-4136961b9/"
               target="_blank"
               rel="noreferrer"
             >
-              Harshit Saini
+              Iknoor Kaur
+            </a>
+            <br />
+            <a
+              className={`${styles.name}`}
+              href="https://www.linkedin.com/in/karan-kalra-273a81204/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Karan Kalra
             </a>
             <br />
             <br />
-            <span style={{ fontWeight: "bolder" }}>Designed By </span>
-            <br />
+            {/* <span style={{ fontWeight: "bolder" }}>Designed By </span> */}
+            {/* <br />
             <a
               className={`${styles.name}`}
               href=""
@@ -87,12 +105,12 @@ const Footer = () => {
               rel="noreferrer"
             >
               ...
-            </a>
+            </a> */}
           </p>
           <p>
             For any queries, reach out to us at email
             <br />
-            <b>mansi@gujrals.com</b>
+            <b>comunity@mail.com</b>
           </p>
         </div>
       </div>

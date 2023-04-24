@@ -6,7 +6,9 @@ import ScrollToTop from "../Components/scrollToTop";
 import { logout, isAuthorised } from "../services/auth";
 import { toast } from "react-toastify";
 import styles from "../Components/styles/dashboard.module.css";
-import user from "../Components/assets/admin.png";
+// import user from "../Components/assets/admin.png";
+// import user from "../Components/assets/me2-bg.png";
+import user from "../Components/assets/user.jpg";
 
 const AdminDashboard = (p) => {
   if (!isAuthorised()) {

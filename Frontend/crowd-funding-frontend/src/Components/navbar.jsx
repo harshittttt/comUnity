@@ -42,15 +42,22 @@ const Navbar = (props) => {
             <li style={{ float: "right" }}>
               <Link to="/about-us">ABOUT US</Link>
             </li>
-            <li style={{ float: "right" }}>
-              <Link to="/admin/login">LOGIN</Link>
-            </li>
+            {!localStorage.getItem("token") && (
+              <li style={{ float: "right" }}>
+                <Link  to="/admin/login">LOGIN</Link>
+              </li>
+            )}
+            {localStorage.getItem("token") && (
+              <li style={{ float: "right" }}>
+                <Link to="/admin/new">NEW USER</Link>
+              </li>
+            )}
             <li style={{ float: "right" }}>
               <Link to="/contact-us">CONTACT US</Link>
             </li>
             {localStorage.getItem("token") && (
               <li style={{ float: "right" }}>
-                <Link to="/admin/dashboard">Admin-Dashboard</Link>
+                <Link to="/admin/dashboard">DASHBOARD</Link>
               </li>
             )}
           </ul>

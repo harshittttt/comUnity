@@ -15,7 +15,7 @@
 .title {
   position: relative;
   /* z-index: 10; */
-  top: 36%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* color: #025f34; */
@@ -42,7 +42,7 @@
 
 .donateBtn {
   position: relative;
-  top: 35%;
+  top: 32%;
   background-color: #fff;
   border-radius: 66px 66px 66px 66px;
   width: 200px;

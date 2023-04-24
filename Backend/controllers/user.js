@@ -16,14 +16,14 @@ db.User.find().exec(function (err, results) {
         return res
           .status(400)
           .json({ message: "Something went wrong, try again" });
-      bcrypt.hash("abc", salt, (err, hash) => {
+      bcrypt.hash("asdqwe123", salt, (err, hash) => {
         if (err)
           return res
             .status(400)
             .json({ message: "Something went wrong, try again" });
 
         const user = new db.User({
-          email: "imt_2018109@iiitm.ac.in",
+          email: "harshit0286.be20@chitkara.edu.in",
           password: hash,
           isVerified: true,
         });
@@ -41,7 +41,7 @@ function validateEmail(email) {
   if (re.test(email)) {
     //Email valid. Procees to test if it's from the right domain (Second argument is to check that the string ENDS with this domain, and that it doesn't just contain it)
     if (
-      email.indexOf("@iiitm.ac.in", email.length - "@iiitm.ac.in".length) !== -1
+      email.indexOf("@chitkara.edu.in", email.length - "@chitkara.edu.in".length) !== -1
     ) {
       //VALID
       //console.log("VALID");
@@ -65,7 +65,7 @@ const addAdmin = (req, res) => {
 
     if (!validateEmail(userData.email))
       return res.status(400).json({
-        message: "You can only add admins having email of iiitm.ac.in domain",
+        message: "You can only add admins having email of chitkara.edu.in domain",
       });
 
     //return error if account already exist
@@ -318,10 +318,10 @@ const login = (req, res) => {
         message: "Something went wrong. Please try again",
       });
 
-    if (!validateEmail(req.body.email))
-      return res.status(400).json({
-        message: "Please login with email of iiitm.ac.in domain",
-      });
+    // if (!validateEmail(req.body.email))
+    //   return res.status(400).json({
+    //     message: "Please login with the registered mail.",
+    //   });
 
     if (!foundUser) {
       return res.status(400).json({

@@ -3,43 +3,43 @@ const db = require("../models");
 // The below code is only for development stage
 // To add some default items in our DB (Campaign collection) and check the api
 const item1 = new db.Campaign({
-  title: "Title1",
+  title: "Flood relief Fort Lauderdale",
   description:
-    "test1dloren jhbvsd  bjbdsv chjb cdbhb bsdcb nb hg asnb hj  asbhbsjhbjhhjaxvhgbcas  hg.sahgvbcshgnbsa ghcsab hjasbjhabs  asbjh sx hahs bscjh",
+    "Hi my name is Sara and I’m starting a fundraiser for my coworker Ashley and her boyfriend, Eddy who have lost their home and car to the recent “1,000 year flood” in Fort Lauderdale. I am reaching out to you to help raise money to provide relief to them and their dog, Champ. Wednesday night a tree fell through the ceiling to their bedroom and onto their bed. Luckily they weren’t home at the time. ",
   imageUrl:
-    "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg",
-  required: 500,
-  start: "2020-12-22T11:18:54.919Z",
+    "https://images.gofundme.com/rC4s0LSWfvKrR9G2zgvR9HoRG2w=/720x405/https://d2g8igdw686xgo.cloudfront.net/72293847_1681484095663923_r.jpeg",
+  required: 700,
+  start: "2022-04-22T11:18:54.919Z",
 });
 
 const item2 = new db.Campaign({
-  title: "test2",
+  title: "Cryptid Genome Project",
   description:
-    "test2dloren jhbvsd  bjbdsv chjb cdbhb bsdcb nb hg asnb hj  asbhbsjhbjhhjaxvhgbcas  hg.sahgvbcshgnbsa ghcsab hjasbjhabs  asbjh sx hahs bscjh",
+    "We're raising research funding for genetic research. Samples include Bigfoot, Dogman, giants, and others. Object is to prove relatedness and origins of the species. This fundraiser is to complete the study. Massive amounts of data have already been obtained. Donors will be kept abreast of progress with a signed NDA. Thanks so much in advance.",
   imageUrl:
-    "https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg",
-  required: 100,
-  start: "2020-12-20T11:18:54.919Z",
+    "https://images.gofundme.com/yqOQ1Cf7jn0SOssQM3YZdUiYDTY=/720x405/https://d2g8igdw686xgo.cloudfront.net/71305499_1677186280343195_r.jpeg",
+  required: 22822,
+  start: "2022-04-20T11:18:54.919Z",
 });
 
 const item3 = new db.Campaign({
-  title: "test3",
+  title: "Help Ceidy and her family",
   description:
-    "test3dloren jhbvsd  bjbdsv chjb cdbhb bsdcb nb hg asnb hj  asbhbsjhbjhhjaxvhgbcas  hg.sahgvbcshgnbsa ghcsab hjasbjhabs  asbjh sx hahs bscjh",
+    "Ceidy Orozco Cordova and her family recently had their rights violated by the Temple City Sheriffs Office in LA County. The Sheriffs office had a warrant for the wrong house entering unlawfully and questioning a minor without a parent present. This led to Ceidy’s two children being unlawfully arrested in their own home.",
   imageUrl:
-    "https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg",
+    "https://images.gofundme.com/TIWd89PdAbFEs8DmDBMna-jbXv0=/720x405/https://d2g8igdw686xgo.cloudfront.net/72307969_1681534839632700_r.jpeg",
   required: 5000,
   start: "2020-12-19T11:18:54.919Z",
 });
 
 const item4 = new db.Campaign({
-  title: "test4",
+  title: "Help me retire please",
   description:
-    "test4dloren jhbvsd  bjbdsv chjb cdbhb bsdcb nb hg asnb hj  asbhbsjhbjhhjaxvhgbcas  hg.sahgvbcshgnbsa ghcsab hjasbjhabs  asbjh sx hahs bscjh",
+    "I am a great-grandmother of almost 92, still checking groceries at WinCo. Although I love my customers and the people I work with, I would like to retire. I really need to retire as my eyesight is failing due to macular degeneration. To retire I need to pay off the fifth wheel I live in. If I can do this, I will have enough to pay for the rent of the space, groceries and medications that I need. Anything you can do to help would be much appreciated.",
   imageUrl:
-    "https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg",
+    "https://images.gofundme.com/MNEBxURfYNFCZtuTPNGvZMeTU3I=/720x405/https://d2g8igdw686xgo.cloudfront.net/72067741_1680488442711642_r.jpeg",
   required: 50000,
-  start: "2020-12-22T11:19:54.919Z",
+  start: "2022-04-22T11:19:54.919Z",
 });
 
 const defaultItems = [item1, item2, item3, item4];
