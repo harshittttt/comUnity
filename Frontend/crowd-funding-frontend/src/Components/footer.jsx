@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="row">
         <div className={`col-12 col-sm-6 col-md-4 ${styles.left}`}>
           <a href="/">
-            <img className={`${styles.logo}`} src={"/GIVERLY.png"} alt="comUnity" />
+            <img className={`${styles.logo}`} src={"/GIVERLY3.png"} alt="comUnity" />
           </a>
           <br />
           <p className={`${styles.caption}`}>

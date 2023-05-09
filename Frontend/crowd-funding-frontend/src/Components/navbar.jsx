@@ -15,7 +15,7 @@ const Navbar = (props) => {
       >
         <li className={styles.title}>
           <Link className={styles.brand} to="/">
-            <img src="/GIVERLY.png" alt="title" />
+            <img src="/GIVERLY3.png" alt="title" />
           </Link>
         </li>
 
